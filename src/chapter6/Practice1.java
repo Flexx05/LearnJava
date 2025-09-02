@@ -16,8 +16,8 @@ public class Practice1 {
 
 		if (password.length() < 6) {
 			System.err.println("Password must be over 6 character");
-			return;
 		}
 		System.out.println("Login successfully");
+		scanner.close();
 	}
 }
