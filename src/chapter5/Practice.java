@@ -27,6 +27,6 @@ public class Practice {
 
 		}
 		System.out.println("Check sum: " + sum);
+		scanner.close();
 	}
-
 }
