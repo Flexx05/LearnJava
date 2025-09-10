@@ -6,7 +6,7 @@ import java.util.Random;
 import java.util.Scanner;
 
 public class Main {
-	@SuppressWarnings("deprecation")
+//	@SuppressWarnings("deprecation")
 	public static void main(String[] args) {
 		double playerAccount = 5000000;
 		try (Scanner scanner = new Scanner(System.in)) {
