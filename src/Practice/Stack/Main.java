@@ -7,7 +7,7 @@ public class Main {
 	public static void main(String[] args) {
 		try (Scanner scanner = new Scanner(System.in)) {
 
-//			Stack<String> stack = new Stack<>();
+			Stack<String> stack = new Stack<>();
 
 //			stack.push(): đưa giá trị vào stack
 //			stack.pop(): lấy giá trị ra và xóa khỏi stack
@@ -17,12 +17,13 @@ public class Main {
 
 //			Đảo ngược chuỗi
 
-//			System.out.println("Nhập vào chuỗi: ");
-//			String string = scanner.nextLine();
+			System.out.println("Nhập vào chuỗi: ");
+			String string = scanner.nextLine();
 //
-//			for (int i = 0; i < string.length(); i++) {
+			for (int i = 0; i < string.replace(" ", "").length(); i++) {
 //				stack.push(string.charAt(i) + "");
-//			}
+				System.out.println(string.replace(" ", "").charAt(i));
+			}
 //
 //			for (int i = 0; i < string.length(); i++) {
 //
@@ -30,18 +31,18 @@ public class Main {
 //			}
 
 //			Chuyển số thập phân sang hệ nhị phân
-			Stack<Integer> stackInt = new Stack<>();
-			System.out.println("Nhập vào 1 số: ");
-			int num = scanner.nextInt();
-			while (num > 0) {
-				int sodu = num % 2;
-				stackInt.push(sodu);
-				num = num / 2;
-			}
-			int size = stackInt.size();
-			for (int i = 0; i < size; i++) {
-				System.out.print(stackInt.pop());
-			}
+//			Stack<Integer> stackInt = new Stack<>();
+//			System.out.println("Nhập vào 1 số: ");
+//			int num = scanner.nextInt();
+//			while (num > 0) {
+//				int sodu = num % 2;
+//				stackInt.push(sodu);
+//				num = num / 2;
+//			}
+//			int size = stackInt.size();
+//			for (int i = 0; i < size; i++) {
+//				System.out.print(stackInt.pop());
+//			}
 
 		}
 
